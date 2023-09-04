@@ -11,6 +11,7 @@
 body {
 
   color: white;
+    
 }
 
 .header {
@@ -24,6 +25,8 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+    
+    
 }
 
 .logo{
@@ -39,18 +42,20 @@ body {
   font-weight: 500;
   margin-left: 35px;
   transition: .3s;
+    
 }
 
 .navbar a:hover,
 .navbar a.active {
-  color: lightblue; 
+  color: #C19A6B; 
 }
 
 .home {
+    
   height: 100vh;
-background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(sameer.jpg);
-background-size: cover;
-background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(light_background.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   padding: 0 10%;
@@ -65,11 +70,13 @@ background-position: center;
   height: 100%;
   background: rgba(2, 2, 2, 2); 
   z-index: -1;
+    
 }
 
 
 .home-content {
   max-width: 600px;
+    
 }
 
 .home-content h1 {
@@ -83,12 +90,14 @@ line-height: 1;
   font-size: 28px;
   line-height: 2;
   font-weight: 500; 
-  color: lightblue;
+  color: #EADDCA;
 }
 
 .home-content p {
   font-size: 16px;
 margin: 20px 0 40px;
+text-shadow: 2px 4px 4px black;
+
 }
 
 .home-content .btn-box {
@@ -105,8 +114,8 @@ justify-content: center;
 align-items: center;
 width: 150px;
 height: 100%;
-background: #00abf0;
-border: 2px solid #00abf0;
+background: #C19A6B;
+border: 2px solid #C19A6B;
 border-radius: 30px;
 font-size: 18px;
 color: #081b29;
@@ -122,10 +131,25 @@ transition: .5s;
 color: #00abf0;
 }
 
+.btn-box a:nth-child(1) {
+  background-color: rgba(0, 171, 240, 0); 
+  color: #F2D2BD; 
+}
+
+.btn-box a:nth-child(1):hover {
+color: #081b29;
+}
+
+.btn-box a:nth-child(1)::before {
+background: #C19A6B;
+}
+
+
+
 
 .btn-box a:nth-child(2) {
   background-color: rgba(0, 171, 240, 0); 
-  color: #00ABF0; 
+  color: #F2D2BD; 
 }
 
 .btn-box a:nth-child(2):hover {
@@ -133,8 +157,10 @@ color: #081b29;
 }
 
 .btn-box a:nth-child(2)::before {
-background: #00abf0;
+background: #C19A6B;
 }
+
+
 
 .btn-box a::before {
 content: '';
@@ -143,9 +169,8 @@ top: 0;
 width: 0;
 width: 0%;
 height: 100%;
-background: #081b29;
 z-index: -1;
-transition: 0.5s;
+transition: 0.3s;
 }
 
 .btn-box a:hover::before {
@@ -171,10 +196,10 @@ width: 100%;
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00abf0;
+    border: 2px solid #DAA06D;
     border-radius: 50%;
     font-size: 20px;
-    color: #00abf0;
+    color: #DAA06D;
     text-decoration: none;
     
 }
