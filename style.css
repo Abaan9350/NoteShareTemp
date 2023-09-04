@@ -98,11 +98,11 @@ button:hover{
     border: none;
 }
 .fade-down{
-    animation: fadedown 1s linear forwards;
+    animation: fadedown 0.5s linear forwards;
 
 }
 .fade-up{
-    animation: fadedown 1s linear forwards;
+    animation: fadedown 0.5s linear forwards;
 
 }
 @keyframes fadedown{
