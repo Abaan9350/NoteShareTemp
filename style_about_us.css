@@ -6,8 +6,16 @@
 }
 
 
+.sun-image {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  width: 50px; 
+  height: auto; 
+  z-index: 9999;
+}
 
-
+    
 body {
 
   color: white;
@@ -31,7 +39,6 @@ body {
     cursor: pointer;
 }
 
-
 .navbar a {
   color: white;
   font-size: 18px;
@@ -48,7 +55,7 @@ body {
 
 .home {
   height: 100vh;
-background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(sameer.jpg);
+background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)),url(sameer.jpg);
 background-size: cover;
 background-position: center;
   display: flex;
@@ -66,7 +73,6 @@ background-position: center;
   background: rgba(2, 2, 2, 2); 
   z-index: -1;
 }
-
 
 .home-content {
   max-width: 600px;
