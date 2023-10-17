@@ -13,7 +13,7 @@
 
 body {
     position: relative;
-    background-image: url('sameer.jpg');
+    background-image: url('../images/light_background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;

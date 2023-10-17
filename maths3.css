@@ -1,7 +1,7 @@
 
 body {
     font-size: 18px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/light_background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/sameer.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -9,9 +9,9 @@ body {
 }
 .sun-image {
     position: fixed;
-    bottom: 30px; 
+    bottom: 20px; 
     right: 20px; 
-    width: 35px; 
+    width: 50px; 
     height: auto; 
     height: auto; 
     z-index: 9999;
@@ -69,7 +69,7 @@ button {
     content: '';
     height: 3px;
     width: 0;
-    background: #C19A6B;
+    background:#00abf0;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -92,7 +92,7 @@ button {
   font-size: 28px;
   line-height: 2;
   font-weight: 500;
-  color: #EADDCA;
+  color: #fff;
   text-shadow: 2px 4px 4px black;
   text-align: center; 
 }
@@ -102,19 +102,19 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh; 
+    height: 9.3vh; 
 }
 
 button {
     width: 375px;
     padding: 15px 0;
     text-align: center;
-    margin: 40px 10px; /* Increased margin-top value */
+    margin: 40px 10px; 
     border-radius: 65px;
     font-weight: bold;
-    border: 2px solid #E5AA70;
+    border: 2px solid #00abf0;
     background: transparent;
-    color: #F5DEB3;
+    color: #fff;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -123,7 +123,7 @@ button {
 
 
 span {
-    background: #C4A484;
+    background: #00abf0;
     height: 100%;
     width: 0;
     border-radius: 65px;

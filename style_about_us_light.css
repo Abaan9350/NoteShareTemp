@@ -63,7 +63,7 @@ body {
 .home {
     
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4   ), rgba(0, 0, 0, 0.4)), url(light_background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4   ), rgba(0, 0, 0, 0.4)), url(../images/light_background.jpg);
 
   background-size: cover;
   background-position: center;
@@ -139,15 +139,16 @@ font-weight: 600;
 letter-spacing: 1px;
 z-index: 1;
 overflow: hidden;
-transition: .5s;
+transition: .3s;
 }
 
 .btn-box a:hover {
-color: #00abf0;
+color: #C19A6B  ;
 }
 
 .btn-box a:nth-child(1) {
   background-color: rgba(0, 171, 240, 0); 
+
   color: #F2D2BD; 
 }
 
@@ -156,11 +157,9 @@ color: #081b29;
 }
 
 .btn-box a:nth-child(1)::before {
-background: #C19A6B;
+        background: #C19A6B;
+
 }
-
-
-
 
 .btn-box a:nth-child(2) {
   background-color: rgba(0, 171, 240, 0); 
@@ -184,6 +183,7 @@ top: 0;
 width: 0;
 width: 0%;
 height: 100%;
+background: #081b29;
 z-index: -1;
 transition: 0.3s;
 }

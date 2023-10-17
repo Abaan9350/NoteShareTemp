@@ -19,7 +19,7 @@
 body {
     
     
-  background-image: url('../images/sameer.jpg');
+  background-image: url('../images/light_background.jpg');
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed; 
@@ -27,7 +27,7 @@ body {
 
 body::before {
   content: "";
-  background-image: url('../images/sameer.jpg');
+  background-image: url('../images/light_background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

@@ -5,7 +5,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow-y: hidden;
 }
 .sun-image {
     position: fixed;
@@ -102,11 +101,11 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh; 
+    height: 12vh; 
 }
 
 button {
-    width: 375px;
+    width: 250px;
     padding: 15px 0;
     text-align: center;
     margin: 40px 10px; /* Increased margin-top value */

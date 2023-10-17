@@ -1,7 +1,7 @@
 
 body {
     font-size: 18px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(light_background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/light_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
